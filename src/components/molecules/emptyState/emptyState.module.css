@@ -1,0 +1,30 @@
+.emptyStateContainer {
+  margin: auto;
+  height: 100%;
+}
+
+.emptyStateImg {
+  max-width: 20%;
+  margin-bottom: 24px;
+}
+
+.leyendaUno {
+  margin-bottom: 0px;
+}
+.leyendaDos {
+  margin-bottom: 32px;
+}
+
+@media screen and (max-width: 767px) {
+  .emptyStateImg {
+    max-width: 35%;
+    margin-bottom: 24px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .emptyStateImg {
+    max-width: 60%;
+    margin-bottom: 24px;
+  }
+}

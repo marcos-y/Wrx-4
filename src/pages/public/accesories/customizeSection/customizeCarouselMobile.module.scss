@@ -1,0 +1,12 @@
+.itemCarousel {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: auto;
+    margin: 0 auto 64px auto;
+  }
+  
+  @media (min-width: 960px) {
+    .itemCarousel {
+      justify-content: center;
+    }
+  }

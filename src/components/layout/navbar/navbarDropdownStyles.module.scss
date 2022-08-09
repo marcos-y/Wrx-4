@@ -1,0 +1,12 @@
+@import "../../../styles/colors.scss";
+
+.footerLink {
+    text-decoration: none;
+    color: $paragraph-color;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+.footerLink:hover {
+    color: $first-color;
+}

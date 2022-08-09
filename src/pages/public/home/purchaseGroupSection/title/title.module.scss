@@ -1,0 +1,17 @@
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: 768px;
+}
+
+@media (min-width: 960px) {
+  .titleContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

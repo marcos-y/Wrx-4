@@ -1,0 +1,16 @@
+@import "../../../styles/colors.scss";
+
+.socialIcon {
+  color: #fff;
+}
+
+.socialIcon:hover {
+  cursor: pointer;
+  color: $first-color;
+}
+
+@media (min-width: 960px) {
+  .socialIcon {
+    margin-right: 16px;
+  }
+}
